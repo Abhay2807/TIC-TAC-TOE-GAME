@@ -44,14 +44,14 @@
   {
     let boxtext=document.getElementsByClassName('box-text');
     let wins=[
-      [0,1,2,0,65,0],
-      [3,4,5,0,120,0],
-      [6,7,8,0,180,0],
-      [0,3,6,-60,120,90],
-      [1,4,7,0,120,90],
-      [2,5,8,60,120,90],
-      [0,4,8,0,120,45],
-      [2,4,6,0,120,-45],
+      [0,1,2,0,100,0],
+      [3,4,5,0,255,0],
+      [6,7,8,0,380,0],
+      [0,3,6,-150,250,90],
+      [1,4,7,0,250,90],
+      [2,5,8,150,250,90],
+      [0,4,8,0,250,45],
+      [2,4,6,0,250,-45],
     ];
     wins.forEach((value)=>{
     if((boxtext[value[0]].innerText!== '')&&(boxtext[value[0]].innerText===boxtext[value[1]].innerText)&&
@@ -62,9 +62,9 @@
       isgameOver=true;
       gameOverMusic.play();
       document.querySelector('.img').style.width="148px";
-      //document.querySelector('.line').style.width="30vw";
-      //document.querySelector('.line').style.transform=
-      //`translate(${value[3]}px,${value[4]}px) rotate(${value[5]}deg)`;
+     /* document.querySelector('.line').style.width="30vw";
+      document.querySelector('.line').style.transform=
+      `translate(${value[3]}px,${value[4]}px) rotate(${value[5]}deg)`;*/
     }
 
     });
