@@ -6,7 +6,7 @@ It allows 2 players to play the game by clicking on the screen to play their mov
 Finally, it displays the winner's name if anyone wins.
 
 This website is hosted on Github using github pages.
-Website Link: 
+Website Link: https://abhay2807.github.io/TIC-TAC-TOE-GAME/
 
 ![Screenshot 2023-07-13 161823](https://github.com/Abhay2807/TIC-TAC-TOE-GAME/assets/76277587/f642a17a-eb87-4de2-88e8-8f4e8f33ab9c)
 
